@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Clima - Jex</title>
+</head>
+
+<body>
+
+    <video src="./assets/tempo.mp4" autoplay muted alt="video"></video>
+
+    <main class="main">
+
+        <section class="conteiner-esquerda">
+
+            <div class="wrapper">
+                <input class="input-cidade" placeholder="digite o nome da cidade"></input>
+                <button onclick="clicarBotao()">
+                    <img class="lupa" src="./assets/lupa.svg">
+                </button>
+            </div>
+
+        </section>
+
+        <div class="wrapper-2">
+
+            <h2 class="cidade">O clima em <span class="span-cidade">Curitiba</span> é de:</h2>
+
+            <div class="box-temperatura">
+
+                <p class="temperatura">22°C</p>
+                <p class="sensacao">Sensação de: <span class="span-sensacao">99</span>°C</p>
+
+            </div>
+
+            <p class="descricao">Sol Ardente</p>
+            <img class="icone-tempo" alt="icone-tempo" src="./assets/sun.svg">
+            <p class="umidade">Umidade: 110%</p>
+
+
+        </div>
+
+        <footer>
+
+            <h1>Previsão do Tempo </h1>
+            <p class="by">by</p><span class="jef"> Jeferson Santos</span>
+            <div class="insta-logo">
+                <a href="https://www.instagram.com/jexsantos_/" target="_blank"><img class="insta"
+                        src="./assets/insta.svg"></a>
+
+            </div>
+
+        </footer>
+
+
+
+    </main>
+
+
+
+
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>

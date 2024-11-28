@@ -1,0 +1,283 @@
+:root {
+    --azul-escuro:#112035;
+    --azul-claro: #AAC6DE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+video {
+    width: 100vw;
+    z-index: -1;
+    filter: brightness(80%);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+   
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-esquerda {
+    display: flex;
+    align-items: center;
+    max-width: 45vw;
+    margin: 0 auto;
+
+}
+
+.wrapper {
+
+    width: 550px;
+    height: auto;
+    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    background-color: rgba(3, 25, 56, 0.712);
+    
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.5s ease-in-out;
+    
+   
+}
+
+.wrapper:hover{
+    
+    box-shadow: 1px 1px 10px #0047abb3;
+
+}
+
+input {
+    height: 60px;
+    min-width: 75%;
+    border-radius: 25px;
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: BOLD;
+
+    background-color: rgba(255, 255, 255, 0.306);
+    color: white;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--azul-escuro);
+    text-shadow: 1px 1px 5px var(--azul-claro);
+    font-family: "Lexend", serif;
+   
+
+}
+
+input:focus{
+    border: 3px solid #AAC6DE;
+    box-shadow: 1px 1px 10px #0047abb3;
+}
+
+button {
+    background: none;
+    
+    
+    border: none;
+    
+   
+    cursor: pointer;
+}
+
+
+
+
+
+.lupa {
+    height: 60px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+  
+}
+
+.lupa:active {
+    height: 65px;
+    
+}
+
+.lupa:hover {
+    transform: rotateX(180deg);
+}
+
+.icone-tempo {
+    height: 60px;
+    transition: 1s ease-in-out;
+    
+}
+
+
+
+.wrapper-2 {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+    
+    background-color: rgba(3, 19, 42, 0.712);
+    max-width: 45vw;
+    height: 80vh;
+    margin: 0 auto;
+
+    border-radius: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.5s ease-in-out;
+    
+
+    
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    
+   
+}
+
+.wrapper-2:hover {
+    box-shadow: 2px 2px 20px #0047abb3;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    transition: 2s ease-in-out;
+}
+
+p{
+    font-size: 32px;
+    font-family: "Lexend", serif;
+    color: #AAC6DE;
+    transition: 2s ease-in-out;
+}
+
+.box-temperatura {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.temperatura {
+    font-weight: bolder;
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+.sensacao {
+    width: 200px;
+    font-size: 14px;
+    color: white;
+}
+
+
+p:last-child{ 
+    font-size: 20px;
+    transition: 2s ease-in-out;
+}
+
+.span-cidade{
+
+    color: #AAC6DE;
+    font-weight: bolder;
+    font-size: 34px;
+
+}
+
+.span-sensacao {
+    font-family: "Lexend", serif;
+}
+
+footer {
+
+    position: absolute;
+    bottom: -5px;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgba(3, 19, 42, 0.712);
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    
+    flex-wrap: wrap;
+    gap: 1%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.5s ease-in-out;
+
+}
+
+footer:hover {
+    box-shadow: 2px 2px 25px #0047abb3;
+}
+
+footer .by {
+    font-size: 12px;
+    
+    align-content: center;
+}
+
+h1 {
+
+    
+    
+    margin: auto 0;
+    font-size: 14px;
+   
+    color: var(--azul-claro);
+}
+
+a {
+    cursor: pointer;
+    margin-top: 0.5%; 
+}
+
+.insta {
+    margin-top: 0.5%;
+    
+    width: 18px;
+    transition: 0.3s ease-in-out;
+    
+
+}
+
+.insta:hover {
+    transform: rotateY(180deg);
+}
+
+.jef {
+
+    font-family: "Lexend", serif;
+    font-style: italic;
+    
+    font-size: 16px;
+    color: white;
+    align-content: center;
+}
