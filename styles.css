@@ -12,12 +12,14 @@
 
 body {
     overflow: hidden;
+    height: 100vh;
 }
 
 video {
     width: 100vw;
     z-index: -1;
     filter: brightness(80%);
+    
 }
 
 main {
@@ -42,7 +44,7 @@ main {
 
 .wrapper {
 
-    width: 550px;
+    min-width: 45vw;
     height: auto;
     
     padding: 20px;
@@ -140,6 +142,7 @@ button {
     padding: 3%;
     display: flex;
     flex-direction: column;
+    
     justify-items: center;
     align-items: center;
     justify-content: space-around;
@@ -181,8 +184,10 @@ p{
 
 .box-temperatura {
     display: flex;
+    
     align-items: center;
     gap: 20%;
+    
 }
 
 .temperatura {
