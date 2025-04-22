@@ -226,8 +226,8 @@ p:last-child {
 
 footer {
 
-    position: absolute;
-    bottom: -5px;
+    position: fixed;
+    bottom: 0px;
     width: 100vw;
     height: 7vh;
     background-color: rgba(3, 19, 42, 0.712);
@@ -339,7 +339,7 @@ a {
     }
 
     .conteiner-direita {
-        padding-bottom: 15%;
+        padding-bottom: 18%;
         min-width: 100%;
     }
 
@@ -385,12 +385,5 @@ a {
         transition: 1s ease-in-out;
 
     }
-
-    footer {
-        position: fixed;
-        bottom: 0px;
-    }
-
-
 
 }
