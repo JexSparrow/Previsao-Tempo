@@ -1,5 +1,5 @@
 :root {
-    --azul-escuro:#112035;
+    --azul-escuro: #112035;
     --azul-claro: #AAC6DE;
 }
 
@@ -19,7 +19,7 @@ video {
     width: 100vw;
     z-index: -1;
     filter: brightness(80%);
-    
+
 }
 
 main {
@@ -28,8 +28,8 @@ main {
     display: flex;
     position: absolute;
     top: 0;
-   
-   
+
+
     align-items: center;
     justify-content: center;
 }
@@ -46,22 +46,22 @@ main {
 
     min-width: 45vw;
     height: auto;
-    
+
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-around;
     background-color: rgba(3, 25, 56, 0.712);
-    
+
     border-radius: 40px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transition: 0.5s ease-in-out;
-    
-   
+
+
 }
 
-.wrapper:hover{
-    
+.wrapper:hover {
+
     box-shadow: 1px 1px 10px #0047abb3;
 
 }
@@ -82,29 +82,29 @@ input {
     text-transform: uppercase;
 }
 
-input::placeholder{
+input::placeholder {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
     color: var(--azul-escuro);
     text-shadow: 1px 1px 5px var(--azul-claro);
     font-family: "Lexend", serif;
-   
+
 
 }
 
-input:focus{
+input:focus {
     border: 3px solid #AAC6DE;
     box-shadow: 1px 1px 10px #0047abb3;
 }
 
 button {
     background: none;
-    
-    
+
+
     border: none;
-    
-   
+
+
     cursor: pointer;
 }
 
@@ -118,12 +118,12 @@ button {
     justify-content: center;
     align-items: center;
     transition: 0.5s ease-in-out;
-  
+
 }
 
 .lupa:active {
     height: 65px;
-    
+
 }
 
 .lupa:hover {
@@ -133,7 +133,7 @@ button {
 .icone-tempo {
     height: 60px;
     transition: 1s ease-in-out;
-    
+
 }
 
 
@@ -142,12 +142,12 @@ button {
     padding: 3%;
     display: flex;
     flex-direction: column;
-    
+
     justify-items: center;
     align-items: center;
     justify-content: space-around;
     gap: 5%;
-    
+
     background-color: rgba(3, 19, 42, 0.712);
     max-width: 45vw;
     height: 80vh;
@@ -157,12 +157,12 @@ button {
 
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transition: 0.5s ease-in-out;
-    
 
-    
+
+
     /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
-    
-   
+
+
 }
 
 .wrapper-2:hover {
@@ -175,7 +175,7 @@ h2 {
     transition: 2s ease-in-out;
 }
 
-p{
+p {
     font-size: 32px;
     font-family: "Lexend", serif;
     color: #AAC6DE;
@@ -184,10 +184,10 @@ p{
 
 .box-temperatura {
     display: flex;
-    
+
     align-items: center;
     gap: 20%;
-    
+
 }
 
 .temperatura {
@@ -203,12 +203,12 @@ p{
 }
 
 
-p:last-child{ 
+p:last-child {
     font-size: 20px;
     transition: 2s ease-in-out;
 }
 
-.span-cidade{
+.span-cidade {
 
     color: #AAC6DE;
     font-weight: bolder;
@@ -228,10 +228,10 @@ footer {
     height: 7vh;
     background-color: rgba(3, 19, 42, 0.712);
     display: flex;
-    
+
     justify-content: center;
     align-content: center;
-    
+
     flex-wrap: wrap;
     gap: 1%;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -245,31 +245,31 @@ footer:hover {
 
 footer .by {
     font-size: 12px;
-    
+
     align-content: center;
 }
 
 h1 {
 
-    
-    
+
+
     margin: auto 0;
     font-size: 14px;
-   
+
     color: var(--azul-claro);
 }
 
 a {
     cursor: pointer;
-    margin-top: 0.5%; 
+    margin-top: 0.5%;
 }
 
 .insta {
     margin-top: 0.5%;
-    
+
     width: 18px;
     transition: 0.3s ease-in-out;
-    
+
 
 }
 
@@ -281,8 +281,107 @@ a {
 
     font-family: "Lexend", serif;
     font-style: italic;
-    
+
     font-size: 16px;
     color: white;
     align-content: center;
+}
+
+@media screen and (max-width: 710px) {
+
+    body {
+        height: 100%;
+    }
+
+    main {
+
+        flex-direction: column;
+
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    video {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    .conteiner-esquerda,
+    .wrapper-2 {
+        min-width: 90%;
+
+    }
+
+    .conteiner-esquerda {
+        justify-content: center;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    input {
+
+        min-width: 80%;
+        font-size: 20px;
+
+    }
+
+    input::placeholder {
+
+        font-size: 15px;
+
+    }
+
+    .conteiner-direita {
+        padding-bottom: 15%;
+        min-width: 100%;
+    }
+
+    .wrapper-2 {
+
+        height: 70vh;
+        padding: 15px;
+
+
+    }
+
+    h2 {
+        font-size: 20px;
+        color: white;
+        transition: 2s ease-in-out;
+    }
+
+    .span-cidade {
+
+
+        font-size: 28px;
+
+    }
+
+    .box-temperatura {
+        flex-direction: column;
+        gap: 10%;
+
+    }
+
+    .sensacao {
+        width: 100%;
+    }
+
+    .lupa {
+        height: 50px;
+        padding-left: 10px;
+
+    }
+
+    .icone-tempo {
+        height: 80px;
+        transition: 1s ease-in-out;
+
+    }
+
+
+
 }
