@@ -291,7 +291,7 @@ a {
     align-content: center;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 1280px) {
 
     body {
         height: 100%;
