@@ -9,7 +9,9 @@ Esqueça as previsões estáticas! Este site permite que os usuários consultem 
 <ul>
   <li>Dados Climáticos em Tempo Real: Consumo direto de uma API meteorológica confiável garante que as informações exibidas sejam sempre as mais recentes e precisas.
 </li>
-Busca por Cidade Global: Uma interface intuitiva permite que os usuários insiram o nome de qualquer cidade e obtenham instantaneamente os dados climáticos correspondentes.
+<li>
+  Busca por Cidade Global: Uma interface intuitiva permite que os usuários insiram o nome de qualquer cidade e obtenham instantaneamente os dados climáticos correspondentes.
+</li>
 Visualização Clara e Concisa: As informações essenciais (temperatura, sensação térmica, descrição) são apresentadas de forma clara e fácil de entender, com destaque para um ícone representativo do clima.
 Detalhes Adicionais Relevantes: Além dos dados básicos, o site exibe a umidade, proporcionando uma visão mais completa das condições climáticas.
 Experiência Interativa: A busca por cidade e a atualização dinâmica dos dados criam uma experiência de usuário envolvente e útil.
