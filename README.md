@@ -7,7 +7,8 @@ Esqueça as previsões estáticas! Este site permite que os usuários consultem 
 <h2>O que torna este Site de Previsão do Tempo um destaque?</h2>
 
 <ul>
-Dados Climáticos em Tempo Real: Consumo direto de uma API meteorológica confiável garante que as informações exibidas sejam sempre as mais recentes e precisas.
+  <li>Dados Climáticos em Tempo Real: Consumo direto de uma API meteorológica confiável garante que as informações exibidas sejam sempre as mais recentes e precisas.
+</li>
 Busca por Cidade Global: Uma interface intuitiva permite que os usuários insiram o nome de qualquer cidade e obtenham instantaneamente os dados climáticos correspondentes.
 Visualização Clara e Concisa: As informações essenciais (temperatura, sensação térmica, descrição) são apresentadas de forma clara e fácil de entender, com destaque para um ícone representativo do clima.
 Detalhes Adicionais Relevantes: Além dos dados básicos, o site exibe a umidade, proporcionando uma visão mais completa das condições climáticas.
@@ -17,9 +18,9 @@ Experiência Interativa: A busca por cidade e a atualização dinâmica dos dado
 Além disso o site está responsivo para Desktop e Mobile e conta com um link para meu Instagram. 
 Siga-me e fique por dentro das próximas novidades!
 
-Desenvolvido no <a href="https://aulas.devclub.com.br/m/courses">  Dev Club </a>
+Desenvolvido no <a href="https://aulas.devclub.com.br/m/courses">Dev Club</a>
 
-confira: [()](https://climate-preview.netlify.app/)
+confira: (https://climate-preview.netlify.app/)
 
 <h2>Layout para Desktop</h2>
 
